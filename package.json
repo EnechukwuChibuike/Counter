@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "payment.js",
   "scripts": {
-    "script": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
