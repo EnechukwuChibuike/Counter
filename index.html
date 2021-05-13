@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="payment.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Payment System</h1>
+        <a href="#GetPaid"><button onclick="clickMe()">Cashout</button></a>   
+    </div>
+    <div class="formDiv">
+        <h1>Register</h1>
+        <form class="form">
+            <input type="number" id="newid" placeholder="Enter id">
+            <input type="text" id='name' placeholder="Enter name">
+            <button onclick="staffReg()" type="button">Register</button>
+        </form>
+    </div>
+    
+    <form id="GetPaid">
+        <input type="number" id="payid" placeholder="Enter id...">
+        <button onclick="payStaff()" type="button">Submit</button>
+    </form>
+    <div id="info"></div>
+</body>
+</html>
